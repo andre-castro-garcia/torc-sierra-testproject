@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sierra.TakeHome.Data", "Sierra.TakeHome.Data\Sierra.TakeHome.Data.csproj", "{0FC9037A-740C-4FCA-B5E9-BEC2D21343FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sierra.TakeHome.API", "Sierra.TakeHome.API\Sierra.TakeHome.API.csproj", "{CD92649F-DF9C-4C6B-8785-3BF1C2754B17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", "{2046E15E-DA34-4333-9B1C-6CA79F8F7ECE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sierra.TakeHome.Database.Migrations", "Sierra.TakeHome.Database.Migrations\Sierra.TakeHome.Database.Migrations.csproj", "{3ECFC21C-E0AC-4535-BDB3-7706201E5567}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3ECFC21C-E0AC-4535-BDB3-7706201E5567} = {2046E15E-DA34-4333-9B1C-6CA79F8F7ECE}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FC9037A-740C-4FCA-B5E9-BEC2D21343FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC9037A-740C-4FCA-B5E9-BEC2D21343FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC9037A-740C-4FCA-B5E9-BEC2D21343FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC9037A-740C-4FCA-B5E9-BEC2D21343FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD92649F-DF9C-4C6B-8785-3BF1C2754B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD92649F-DF9C-4C6B-8785-3BF1C2754B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD92649F-DF9C-4C6B-8785-3BF1C2754B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD92649F-DF9C-4C6B-8785-3BF1C2754B17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ECFC21C-E0AC-4535-BDB3-7706201E5567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ECFC21C-E0AC-4535-BDB3-7706201E5567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ECFC21C-E0AC-4535-BDB3-7706201E5567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ECFC21C-E0AC-4535-BDB3-7706201E5567}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
