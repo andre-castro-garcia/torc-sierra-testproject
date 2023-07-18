@@ -8,6 +8,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Migrations", "Migrations", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sierra.TakeHome.Database.Migrations", "Sierra.TakeHome.Database.Migrations\Sierra.TakeHome.Database.Migrations.csproj", "{3ECFC21C-E0AC-4535-BDB3-7706201E5567}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{37078635-37F5-4C95-9BC3-2AC817D0B84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sierra.TakeHome.UnitTests", "Sierra.TakeHome.UnitTests\Sierra.TakeHome.UnitTests.csproj", "{E72E0D75-1184-4F26-A34C-D925588B1BB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3ECFC21C-E0AC-4535-BDB3-7706201E5567} = {2046E15E-DA34-4333-9B1C-6CA79F8F7ECE}
+		{E72E0D75-1184-4F26-A34C-D925588B1BB9} = {37078635-37F5-4C95-9BC3-2AC817D0B84A}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0FC9037A-740C-4FCA-B5E9-BEC2D21343FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -29,5 +34,9 @@ Global
 		{3ECFC21C-E0AC-4535-BDB3-7706201E5567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ECFC21C-E0AC-4535-BDB3-7706201E5567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ECFC21C-E0AC-4535-BDB3-7706201E5567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E72E0D75-1184-4F26-A34C-D925588B1BB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72E0D75-1184-4F26-A34C-D925588B1BB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72E0D75-1184-4F26-A34C-D925588B1BB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72E0D75-1184-4F26-A34C-D925588B1BB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
